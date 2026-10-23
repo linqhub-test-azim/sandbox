@@ -4,5 +4,5 @@ export function add(a, b) {
 
 // Multiplies two numbers.
 export function multiply(a, b) {
-  return a + b;
+  return a * b;
 }

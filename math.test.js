@@ -7,5 +7,7 @@ test("adds two numbers", () => {
 });
 
 test("multiplies two numbers", () => {
-  assert.equal(multiply(2, 2), 4);
+  assert.equal(multiply(2, 3), 6);
+  assert.equal(multiply(-4, 5), -20);
+  assert.equal(multiply(7, 0), 0);
 });
