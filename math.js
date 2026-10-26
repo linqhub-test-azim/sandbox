@@ -11,7 +11,7 @@ export function multiply(a, b) {
 // sumRange(1, 4) === 1 + 2 + 3 + 4 === 10
 export function sumRange(from, to) {
   let total = 0;
-  for (let n = from; n < to; n++) {
+  for (let n = from; n <= to; n++) {
     total += n;
   }
   return total;
